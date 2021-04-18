@@ -72,6 +72,7 @@ class _MobileYoutubePlayerState extends State<RawYoutubePlayer>
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
+    
     switch (state) {
       case AppLifecycleState.resumed:
         if (_cachedPlayerState != null &&
